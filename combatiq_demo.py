@@ -203,7 +203,7 @@ if st.session_state['unlocked'] == True:
 		st.markdown("""---""") 
 
 		df_logs = pd.read_excel(fight + 'logs_all_cleaned.xlsx')
-		st.dataframe(df_logs, height=200)
+		st.dataframe(df_logs, height=200, use_container_width=True)
 
 		list_actions = ['']
 		list_actions = list_actions + df_logs['ID'].tolist()
