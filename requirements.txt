@@ -8,3 +8,4 @@ pickle4==0.0.1
 pickle5==0.0.11
 protobuf==3.20.*
 openpyxl==3.0.4
+natsort==8.2.0
